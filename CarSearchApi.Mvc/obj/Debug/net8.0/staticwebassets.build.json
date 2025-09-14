@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "lrGk9hMg91KP9xfySDJINSUcJSqq8MXEB1L1vkwibS4=",
+  "Source": "CarSearchApi.Mvc",
+  "BasePath": "_content/CarSearchApi.Mvc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
