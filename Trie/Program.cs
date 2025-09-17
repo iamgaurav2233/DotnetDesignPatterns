@@ -25,8 +25,9 @@ namespace DesignPatterns
                 for (int i = 0; i < s.Length; i++)
                 {
                     int charPos = (int)s[i] - 97;
-                    temp = temp.List[charPos] ?? new Node();
-                    temp.Length++;
+                    temp.List[charPos] ??= new Node();
+                    temp = temp.List[charPos];
+                    temp!.Length++;
                 }
                 temp.IsPresent = true;
             }
@@ -82,6 +83,7 @@ namespace DesignPatterns
             Console.WriteLine(trie.IsPresent("abc"));
             Console.WriteLine(trie.IsPresent("abd"));
             trie.DeleteString("abc");
+            trie.DeleteString("aaa");
             Console.WriteLine(trie.IsPresent("abc"));
         }
     }

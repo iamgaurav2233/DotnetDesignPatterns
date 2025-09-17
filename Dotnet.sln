@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLot", "ParkingLot\ParkingLot.csproj", "{C6476033-0CE3-4AB1-97D5-D56B1B36C2EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trie\Trie.csproj", "{4D54269A-C3E1-4A24-8203-0DA44BAC1EF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C6476033-0CE3-4AB1-97D5-D56B1B36C2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6476033-0CE3-4AB1-97D5-D56B1B36C2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6476033-0CE3-4AB1-97D5-D56B1B36C2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D54269A-C3E1-4A24-8203-0DA44BAC1EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D54269A-C3E1-4A24-8203-0DA44BAC1EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D54269A-C3E1-4A24-8203-0DA44BAC1EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D54269A-C3E1-4A24-8203-0DA44BAC1EF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

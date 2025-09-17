@@ -1,0 +1,15 @@
+D:\Dotnet\Trie\bin\Debug\net8.0\Trie.exe
+D:\Dotnet\Trie\bin\Debug\net8.0\Trie.deps.json
+D:\Dotnet\Trie\bin\Debug\net8.0\Trie.runtimeconfig.json
+D:\Dotnet\Trie\bin\Debug\net8.0\Trie.dll
+D:\Dotnet\Trie\bin\Debug\net8.0\Trie.pdb
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.AssemblyInfoInputs.cache
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.AssemblyInfo.cs
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.csproj.CoreCompileInputs.cache
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.sourcelink.json
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.dll
+D:\Dotnet\Trie\obj\Debug\net8.0\refint\Trie.dll
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.pdb
+D:\Dotnet\Trie\obj\Debug\net8.0\Trie.genruntimeconfig.cache
+D:\Dotnet\Trie\obj\Debug\net8.0\ref\Trie.dll
