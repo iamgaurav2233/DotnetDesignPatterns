@@ -1,0 +1,15 @@
+D:\Dotnet\LRU\bin\Debug\net8.0\LRU.exe
+D:\Dotnet\LRU\bin\Debug\net8.0\LRU.deps.json
+D:\Dotnet\LRU\bin\Debug\net8.0\LRU.runtimeconfig.json
+D:\Dotnet\LRU\bin\Debug\net8.0\LRU.dll
+D:\Dotnet\LRU\bin\Debug\net8.0\LRU.pdb
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.AssemblyInfoInputs.cache
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.AssemblyInfo.cs
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.csproj.CoreCompileInputs.cache
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.sourcelink.json
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.dll
+D:\Dotnet\LRU\obj\Debug\net8.0\refint\LRU.dll
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.pdb
+D:\Dotnet\LRU\obj\Debug\net8.0\LRU.genruntimeconfig.cache
+D:\Dotnet\LRU\obj\Debug\net8.0\ref\LRU.dll

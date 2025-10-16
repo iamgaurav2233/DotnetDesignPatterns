@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lzI3mBZIPro=",
+  "dgSpecHash": "r1vp7FgUSQU=",
   "success": true,
   "projectFilePath": "D:\\Dotnet\\ParkingLot\\ParkingLot.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\iamva\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.9\\microsoft.extensions.dependencyinjection.9.0.9.nupkg.sha512",
+    "C:\\Users\\iamva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

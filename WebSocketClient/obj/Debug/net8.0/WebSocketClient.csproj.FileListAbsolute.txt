@@ -1,0 +1,15 @@
+D:\Dotnet\WebSocketClient\bin\Debug\net8.0\WebSocketClient.exe
+D:\Dotnet\WebSocketClient\bin\Debug\net8.0\WebSocketClient.deps.json
+D:\Dotnet\WebSocketClient\bin\Debug\net8.0\WebSocketClient.runtimeconfig.json
+D:\Dotnet\WebSocketClient\bin\Debug\net8.0\WebSocketClient.dll
+D:\Dotnet\WebSocketClient\bin\Debug\net8.0\WebSocketClient.pdb
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.AssemblyInfoInputs.cache
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.AssemblyInfo.cs
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.csproj.CoreCompileInputs.cache
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.sourcelink.json
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.dll
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\refint\WebSocketClient.dll
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.pdb
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\WebSocketClient.genruntimeconfig.cache
+D:\Dotnet\WebSocketClient\obj\Debug\net8.0\ref\WebSocketClient.dll

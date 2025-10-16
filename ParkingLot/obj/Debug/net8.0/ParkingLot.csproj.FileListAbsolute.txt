@@ -13,3 +13,7 @@ D:\Dotnet\ParkingLot\obj\Debug\net8.0\refint\ParkingLot.dll
 D:\Dotnet\ParkingLot\obj\Debug\net8.0\ParkingLot.pdb
 D:\Dotnet\ParkingLot\obj\Debug\net8.0\ParkingLot.genruntimeconfig.cache
 D:\Dotnet\ParkingLot\obj\Debug\net8.0\ref\ParkingLot.dll
+D:\Dotnet\ParkingLot\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dotnet\ParkingLot\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dotnet\ParkingLot\obj\Debug\net8.0\ParkingLot.csproj.AssemblyReference.cache
+D:\Dotnet\ParkingLot\obj\Debug\net8.0\ParkingLot.csproj.Up2Date
