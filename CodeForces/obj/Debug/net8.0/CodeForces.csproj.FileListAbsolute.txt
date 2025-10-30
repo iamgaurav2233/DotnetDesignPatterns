@@ -1,0 +1,15 @@
+D:\Dotnet\CodeForces\bin\Debug\net8.0\CodeForces.exe
+D:\Dotnet\CodeForces\bin\Debug\net8.0\CodeForces.deps.json
+D:\Dotnet\CodeForces\bin\Debug\net8.0\CodeForces.runtimeconfig.json
+D:\Dotnet\CodeForces\bin\Debug\net8.0\CodeForces.dll
+D:\Dotnet\CodeForces\bin\Debug\net8.0\CodeForces.pdb
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.AssemblyInfoInputs.cache
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.AssemblyInfo.cs
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.csproj.CoreCompileInputs.cache
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.sourcelink.json
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.dll
+D:\Dotnet\CodeForces\obj\Debug\net8.0\refint\CodeForces.dll
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.pdb
+D:\Dotnet\CodeForces\obj\Debug\net8.0\CodeForces.genruntimeconfig.cache
+D:\Dotnet\CodeForces\obj\Debug\net8.0\ref\CodeForces.dll
