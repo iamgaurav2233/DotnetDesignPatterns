@@ -1,0 +1,15 @@
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\NotifyMe.exe
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\NotifyMe.deps.json
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\NotifyMe.runtimeconfig.json
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\NotifyMe.dll
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\NotifyMe.pdb
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.AssemblyInfoInputs.cache
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.AssemblyInfo.cs
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.csproj.CoreCompileInputs.cache
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.sourcelink.json
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.dll
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\refint\NotifyMe.dll
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.pdb
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.genruntimeconfig.cache
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\ref\NotifyMe.dll
