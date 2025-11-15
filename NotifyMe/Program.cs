@@ -9,6 +9,21 @@ namespace NotifyMe
     {
         public static void Main()
         {
+            var services = new ServiceCollection();
+            services.AddSingleton<TemplateProvider>(new TemplateProvider("templates.json"));
+            services.AddSingleton<TemplateEngine, TemplateEngine>();
+
+            services.AddTransient<EmailService>();
+            services.AddTransient<SmsService>();
+
+            services.AddTransient<IStocksObservable, IphoneObservable>();
+
+            services.AddTransient<EmailAlertObserver>();
+            services.AddTransient<MobileAlertObserver>();
+
+            var provider = services.BuildServiceProvider();
+
+
             var templateProvider = new TemplateProvider("templates.json");
             var templateEngine = new TemplateEngine();
             var iphoneStockObservable = new IphoneObservable();
@@ -22,5 +37,6 @@ namespace NotifyMe
             iphoneStockObservable.RemoveStockCount(10);
             iphoneStockObservable.AddStockCount(100);
         }
+
     }
 }

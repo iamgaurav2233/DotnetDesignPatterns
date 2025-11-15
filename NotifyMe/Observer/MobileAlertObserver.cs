@@ -21,6 +21,7 @@ namespace NotifyMe.Observer
         {
             var infoDictionary = new Dictionary<string, string>();
             infoDictionary["name"] = _name;
+            infoDictionary["mobileNo"] = _mobileNo;
             Type type = _observable.GetType();
             infoDictionary["product"] = type.ToString().Replace("Observable", "").Replace("NotifyMe..", "");
             _smsService.Notify("BACK_IN_STOCK", infoDictionary);
