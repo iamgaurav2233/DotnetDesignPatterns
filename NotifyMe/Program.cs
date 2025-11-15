@@ -10,32 +10,39 @@ namespace NotifyMe
         public static void Main()
         {
             var services = new ServiceCollection();
+            Program.RegisterServices(services);
+
+            var provider = services.BuildServiceProvider();
+
+            var observable = provider.GetRequiredService<IStocksObservable>();
+
+            var factory = provider.GetRequiredService<IObserverFactory>();
+
+            var observer1 = factory.CreateEmailObserver("gaurav", "xyz@gmail.com");
+            var observer2 = factory.CreateMobileObserver("varuag", "9082510949");
+
+            observable.Add(observer1);
+            observable.Add(observer2);
+
+            observable.AddStockCount(10);
+            observable.RemoveStockCount(10);
+            observable.AddStockCount(100);
+
+        }
+        private static void RegisterServices(ServiceCollection services)
+        {
             services.AddSingleton<TemplateProvider>(new TemplateProvider("templates.json"));
             services.AddSingleton<TemplateEngine, TemplateEngine>();
 
-            services.AddTransient<EmailService>();
-            services.AddTransient<SmsService>();
+            services.AddTransient<INotifyService, EmailService>();
+            services.AddTransient<INotifyService, SmsService>();
 
-            services.AddTransient<IStocksObservable, IphoneObservable>();
+            services.AddSingleton<IStocksObservable, IphoneObservable>();
 
             services.AddTransient<EmailAlertObserver>();
             services.AddTransient<MobileAlertObserver>();
 
-            var provider = services.BuildServiceProvider();
-
-
-            var templateProvider = new TemplateProvider("templates.json");
-            var templateEngine = new TemplateEngine();
-            var iphoneStockObservable = new IphoneObservable();
-            var observer1 = new EmailAlertObserver("gaurav", "xyz@gmail.com", iphoneStockObservable, new EmailService(templateProvider, templateEngine));
-            var observer2 = new MobileAlertObserver("varuag", "9082510949", iphoneStockObservable, new SmsService(templateProvider, templateEngine));
-
-            iphoneStockObservable.Add(observer1);
-            iphoneStockObservable.Add(observer2);
-
-            iphoneStockObservable.AddStockCount(10);
-            iphoneStockObservable.RemoveStockCount(10);
-            iphoneStockObservable.AddStockCount(100);
+            services.AddSingleton<IObserverFactory, ObserverFactory>();
         }
 
     }
