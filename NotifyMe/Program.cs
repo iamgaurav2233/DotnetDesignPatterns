@@ -18,15 +18,17 @@ namespace NotifyMe
 
             var factory = provider.GetRequiredService<IObserverFactory>();
 
+            var stockManager = provider.GetRequiredService<StockManager>();
+
             var observer1 = factory.CreateEmailObserver("gaurav", "xyz@gmail.com");
             var observer2 = factory.CreateMobileObserver("varuag", "9082510949");
 
             observable.Add(observer1);
             observable.Add(observer2);
 
-            observable.AddStockCount(10);
-            observable.RemoveStockCount(10);
-            observable.AddStockCount(100);
+            stockManager.AddStockCount(10);
+            stockManager.RemoveStockCount(10);
+            stockManager.AddStockCount(100);
 
         }
         private static void RegisterServices(ServiceCollection services)
@@ -38,6 +40,7 @@ namespace NotifyMe
             services.AddTransient<INotifyService, SmsService>();
 
             services.AddSingleton<IStocksObservable, IphoneObservable>();
+            services.AddSingleton<StockManager>();
 
             services.AddTransient<EmailAlertObserver>();
             services.AddTransient<MobileAlertObserver>();

@@ -3,11 +3,9 @@ namespace NotifyMe.Observable
 {
     public class IphoneObservable : IStocksObservable
     {
-        private int _stockCount;
         private readonly List<INotificationAlertObserver> _observerList;
         public IphoneObservable()
         {
-            _stockCount = 0;
             _observerList = new List<INotificationAlertObserver>();
         }
         public void Add(INotificationAlertObserver observer)
@@ -26,25 +24,6 @@ namespace NotifyMe.Observable
             {
                 observer.Update();
             }
-        }
-
-        public void AddStockCount(int newStockAdded)
-        {
-            _stockCount = _stockCount + newStockAdded;
-            if (_stockCount == newStockAdded)
-            {
-                NotifySubscribers();
-            }
-        }
-
-        public void RemoveStockCount(int removeStock)
-        {
-            _stockCount = _stockCount - removeStock;
-        }
-
-        public int GetStockCount()
-        {
-            return _stockCount;
         }
     }
 }

@@ -8,11 +8,6 @@ namespace NotifyMe.Observable
         void Remove(INotificationAlertObserver observer);
 
         void NotifySubscribers();
-
-        void AddStockCount(int newStockAdded);
-
-        void RemoveStockCount(int removeStock);
-
-        int GetStockCount();
+        
     }
 }
