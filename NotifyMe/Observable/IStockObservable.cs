@@ -1,4 +1,3 @@
-using System.Runtime.CompilerServices;
 using NotifyMe.Observer;
 namespace NotifyMe.Observable
 {
@@ -10,7 +9,9 @@ namespace NotifyMe.Observable
 
         void NotifySubscribers();
 
-        void SetStockCount(int newStockAdded);
+        void AddStockCount(int newStockAdded);
+
+        void RemoveStockCount(int removeStock);
 
         int GetStockCount();
     }

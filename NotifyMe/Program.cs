@@ -1,22 +1,26 @@
-﻿using NotifyMe.Observable;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using NotifyMe.Observable;
 using NotifyMe.Observer;
+using NotifyMe.NotificationService;
 namespace NotifyMe
 {
     public class Program
     {
         public static void Main()
         {
+            var templateProvider = new TemplateProvider("templates.json");
+            var templateEngine = new TemplateEngine();
             var iphoneStockObservable = new IphoneObservable();
-
-            var observer1 = new EmailAlertObserver("xyz@gmail.com", iphoneStockObservable);
-            var observer2 = new MobileAlertObserver("9082510949", iphoneStockObservable);
+            var observer1 = new EmailAlertObserver("gaurav", "xyz@gmail.com", iphoneStockObservable, new EmailService(templateProvider, templateEngine));
+            var observer2 = new MobileAlertObserver("varuag", "9082510949", iphoneStockObservable, new SmsService(templateProvider, templateEngine));
 
             iphoneStockObservable.Add(observer1);
             iphoneStockObservable.Add(observer2);
 
-            iphoneStockObservable.SetStockCount(10);
-            iphoneStockObservable.SetStockCount(-10);
-            iphoneStockObservable.SetStockCount(100);
+            iphoneStockObservable.AddStockCount(10);
+            iphoneStockObservable.RemoveStockCount(10);
+            iphoneStockObservable.AddStockCount(100);
         }
     }
 }

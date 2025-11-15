@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xUyT90ljdys=",
+  "dgSpecHash": "Ikwoq1WNOlQ=",
   "success": true,
   "projectFilePath": "D:\\Dotnet\\NotifyMe\\NotifyMe.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\iamva\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0\\microsoft.extensions.dependencyinjection.10.0.0.nupkg.sha512",
+    "C:\\Users\\iamva\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

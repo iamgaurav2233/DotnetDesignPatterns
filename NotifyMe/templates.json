@@ -1,0 +1,14 @@
+{
+    "BACK_IN_STOCK": {
+        "subject": "Hurry!",
+        "body": "Hello {name},\n {product}'s are back in stock."
+    },
+    "OUT_OF_STOCK": {
+        "subject": "Sorry!",
+        "body": "Hi {name},\n {product} is out of stock subscribe to receive notification when restocked!"
+    },
+    "MASSIVE_DISCOUNT": {
+        "subject": "Massive Discounts!",
+        "body": "Hey {name},\n Massive Discounts on {product}."
+    }
+}

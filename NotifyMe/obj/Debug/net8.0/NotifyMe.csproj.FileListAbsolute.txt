@@ -13,3 +13,7 @@ D:\Dotnet\NotifyMe\obj\Debug\net8.0\refint\NotifyMe.dll
 D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.pdb
 D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.genruntimeconfig.cache
 D:\Dotnet\NotifyMe\obj\Debug\net8.0\ref\NotifyMe.dll
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.csproj.AssemblyReference.cache
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Dotnet\NotifyMe\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Dotnet\NotifyMe\obj\Debug\net8.0\NotifyMe.csproj.Up2Date
