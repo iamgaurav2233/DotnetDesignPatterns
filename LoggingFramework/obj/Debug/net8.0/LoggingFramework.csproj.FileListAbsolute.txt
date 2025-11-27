@@ -1,0 +1,15 @@
+D:\Dotnet\LoggingFramework\bin\Debug\net8.0\LoggingFramework.exe
+D:\Dotnet\LoggingFramework\bin\Debug\net8.0\LoggingFramework.deps.json
+D:\Dotnet\LoggingFramework\bin\Debug\net8.0\LoggingFramework.runtimeconfig.json
+D:\Dotnet\LoggingFramework\bin\Debug\net8.0\LoggingFramework.dll
+D:\Dotnet\LoggingFramework\bin\Debug\net8.0\LoggingFramework.pdb
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.AssemblyInfoInputs.cache
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.AssemblyInfo.cs
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.csproj.CoreCompileInputs.cache
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.sourcelink.json
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.dll
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\refint\LoggingFramework.dll
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.pdb
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\LoggingFramework.genruntimeconfig.cache
+D:\Dotnet\LoggingFramework\obj\Debug\net8.0\ref\LoggingFramework.dll
